@@ -1,0 +1,13 @@
+As you requested for the commands so here we are,
+
+Problem: Problem with your commands is you have pushed to develop branch and again you are pushing the same branch.
+
+Solution --> To deal with it firstly you have to pull the current changes in remote branch to your local branch so that both repository and your local system are on same position,
+
+now for that you have to do:
+
+git pull develop
+
+now, you have to push the develop again after making(committing) some changes:
+make sure you do not have any uncommitted changes in your current branch otherwise it will give u conflict.
+
